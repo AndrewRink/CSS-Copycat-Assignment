@@ -1,0 +1,93 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    background-color: rgb(32,38,52);
+    color: white;
+}
+
+#navBar {
+    min-width: 100%;
+    ;
+}
+
+#navList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: flex-end;
+    text-align: center;
+    
+}
+#navLogo {
+    margin-right: auto;
+}
+
+li {
+    text-align: center;
+}
+
+#hero {
+    background-color: #283044;
+    color: #f6f8f7;
+    box-shadow: black;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    min-height: 30vh;
+    min-width: 100%;
+}
+
+#dsRemastered {
+    height: 275px;
+    width: 275px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#gameTitle {
+    display: flex;
+    flex-direction:column;
+    padding: 24px;
+}
+
+#beatRating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #283044;
+    color: #f6f8f7;
+    box-shadow: black;
+    border-radius: 24px;
+    min-height: 15vh;
+    margin: 1em;
+}
+
+#communityRatings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #283044;
+    flex-grow: 1;
+    color: #f6f8f7;
+    box-shadow: black;
+    border-radius: 24px;
+    min-height: 15vh;
+
+}
+
+#topGuideSections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #283044;
+    flex-grow: 1;
+    color: #f6f8f7;
+    box-shadow: black;
+    border-radius: 24px;
+    min-height: 30vh; 
+}
+
