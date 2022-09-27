@@ -27,6 +27,7 @@ body {
 
 li {
     text-align: center;
+    margin: 1em;
 }
 
 #hero {
@@ -52,6 +53,15 @@ li {
     display: flex;
     flex-direction:column;
     padding: 24px;
+    justify-content: space-around;
+}
+#titleButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn btn-dark {
+    background-color: #ffffff;
+    color: #242831;
 }
 
 #beatRating {
@@ -66,9 +76,14 @@ li {
     margin: 1em;
 }
 
+#RateThisGame {
+    display:flex;
+    flex-direction: column;
+}
+
 #communityRatings {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     background-color: #283044;
     flex-grow: 1;
@@ -76,18 +91,33 @@ li {
     box-shadow: black;
     border-radius: 24px;
     min-height: 15vh;
+    margin: 1em;
+    text-align: center;
 
 }
 
 #topGuideSections {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     background-color: #283044;
     flex-grow: 1;
     color: #f6f8f7;
     box-shadow: black;
     border-radius: 24px;
-    min-height: 30vh; 
+    min-height: 20vh; 
+    margin:1em;
+}
+
+#guideList {
+    list-style-type: disc;
+}
+
+#Guides {
+    display:flex;
+    flex-direction: Column;
+    flex-wrap: wrap;
+    margin: 1em;
+    
 }
 
