@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     background-color: rgb(32,38,52);
@@ -9,7 +9,6 @@ body {
 
 #navBar {
     min-width: 100%;
-    ;
 }
 
 #navList {
@@ -19,6 +18,8 @@ body {
     list-style-type: none;
     justify-content: flex-end;
     text-align: center;
+    background-color: #283044;
+    
     
 }
 #navLogo {
@@ -61,7 +62,7 @@ li {
 }
 .btn btn-dark {
     background-color: #ffffff;
-    color: #242831;
+    color: #283044;
 }
 
 #beatRating {
@@ -75,6 +76,22 @@ li {
     min-height: 15vh;
     margin: 1em;
 }
+
+#Beat {
+    text-align: center;
+    width: 50%;  
+}
+
+#Beat #Fourty, #Sixty, #Story, #Everything {
+    border-left: solid 1px;
+    border-right:solid 1px;
+}
+
+#hour {
+    border: 1px solid;
+}
+
+
 
 #RateThisGame {
     display:flex;
@@ -96,6 +113,11 @@ li {
 
 }
 
+#peopleLike {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
 #topGuideSections {
     display: flex;
     flex-direction: row;
@@ -109,15 +131,22 @@ li {
     margin:1em;
 }
 
-#guideList {
+#topGuides {
     list-style-type: disc;
+    color: #f6f8f7;
 }
 
-#Guides {
-    display:flex;
-    flex-direction: Column;
-    flex-wrap: wrap;
-    margin: 1em;
-    
+#topGuides #Guides {
+    margin: 3em;
+    width: 100%;
+   }
+
+
+a:link {
+    color:#f6f8f7;
+}
+
+a:visited {
+    color:#f6f8f7;
 }
 
