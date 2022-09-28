@@ -6,7 +6,7 @@ body {
     background-color: rgb(32,38,52);
     color: white;
 }
-
+/*navigation bar at the top of page*/
 #navBar {
     min-width: 100%;
 }
@@ -30,7 +30,7 @@ li {
     text-align: center;
     margin: 1em;
 }
-
+/*Main box where image and game info is*/
 #hero {
     background-color: #283044;
     color: #f6f8f7;
@@ -41,7 +41,7 @@ li {
     min-height: 30vh;
     min-width: 100%;
 }
-
+/*picture*/
 #dsRemastered {
     height: 275px;
     width: 275px;
@@ -50,12 +50,14 @@ li {
     margin-top: 20px;
     
 }
+
 #gameTitle {
     display: flex;
     flex-direction:column;
     padding: 24px;
     justify-content: space-around;
 }
+
 #titleButtons{
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +66,7 @@ li {
     background-color: #ffffff;
     color: #283044;
 }
-
+/*Game Rating and Time to Beat section*/
 #beatRating {
     display: flex;
     flex-direction: row;
@@ -82,6 +84,7 @@ li {
     width: 50%;  
 }
 
+/*Creates border in table for dividers*/
 #Beat #Fourty, #Sixty, #Story, #Everything {
     border-left: solid 1px;
     border-right:solid 1px;
@@ -98,6 +101,10 @@ li {
     flex-direction: column;
 }
 
+#RateTable {
+    margin:1em;
+}
+
 #communityRatings {
     display: flex;
     flex-direction: column;
@@ -111,6 +118,10 @@ li {
     margin: 1em;
     text-align: center;
 
+}
+
+#communityRatings h5 {
+    margin-top: 1em;
 }
 
 #peopleLike {
@@ -141,7 +152,7 @@ li {
     width: 100%;
    }
 
-
+/*Hyperlink colors*/
 a:link {
     color:#f6f8f7;
 }
